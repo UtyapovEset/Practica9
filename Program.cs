@@ -1,6 +1,8 @@
 
 using Microsoft.EntityFrameworkCore;
+using NormalPractica9.IRepository;
 using NormalPractica9.Models;
+using NormalPractica9.Repository;
 
 namespace NormalPractica9
 {
@@ -23,6 +25,11 @@ namespace NormalPractica9
 
             builder.Services.AddDbContext<TrainingDbContext>(opt =>
                 opt.UseSqlServer(connString));
+
+            builder.Services.AddScoped<IClientRepository, ClientRepository>();
+            builder.Services.AddScoped<ICoachRepository, CoachRepository>();
+            builder.Services.AddScoped<IGymRepository, GymRepository>();
+            builder.Services.AddScoped<IWorkoutRepository, WorkoutRepository>();
 
             var app = builder.Build();
 

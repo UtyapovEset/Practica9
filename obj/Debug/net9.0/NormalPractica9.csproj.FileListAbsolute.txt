@@ -154,3 +154,5 @@ C:\Users\Есет\Desktop\документы\C#\NormalPractica9\obj\Debug\net9.0
 C:\Users\Есет\Desktop\документы\C#\NormalPractica9\obj\Debug\net9.0\NormalPractica9.pdb
 C:\Users\Есет\Desktop\документы\C#\NormalPractica9\obj\Debug\net9.0\NormalPractica9.genruntimeconfig.cache
 C:\Users\Есет\Desktop\документы\C#\NormalPractica9\obj\Debug\net9.0\ref\NormalPractica9.dll
+C:\Users\Есет\Desktop\документы\C#\NormalPractica9\obj\Debug\net9.0\NormalPractica9.sourcelink.json
+C:\Users\Есет\Desktop\документы\C#\NormalPractica9\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
